@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/_settings.css">
-    <link rel="stylesheet" href="/css/Shared_layout/_layout.css">
-    <link rel="stylesheet" href="/css/Member/_coupon2.css">
+    <link rel="stylesheet" href="./_settings.css">
+    <link rel="stylesheet" href="./_layout.css">
+    <link rel="stylesheet" href="./_coupon2.css">
 
 
     <title>你訂Nidin!最棒的線上訂餐系統</title>
@@ -51,7 +51,7 @@
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">通知<span class="badge rounded-pill badge-notification bg-danger">6</span></a>
+                                <a class="nav-link active" aria-current="page" href="#">通知<span class="badge rounded-pill badge-notification bg-danger">0</span></a>
                                 
                             </li>
                             <li class="nav-item">
@@ -75,7 +75,7 @@
         </head>
 
         <div class="container">
-            <div class="col-6 m-auto mt-3">
+            <div class="col-8 m-auto mt-3">
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">兌換專區</button>
@@ -144,26 +144,27 @@
                             <button type="button" class="btn btn-primary ms-auto mb-2">折價券轉贈</button>
                         </div>
                     </nav>
-                    <div class="col-md-12 tab-content" id="nav-tabContent">
+                    <div class="col-md-auto tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-discount" role="tabpanel" aria-labelledby="nav-discount-tab">
                             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas aut ullam non et pariatur tenetur ipsam reprehenderit totam blanditiis.</span>
                             <div class="container my-5">
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm">
                                         <div class="coupon bg-white rounded mb-3 d-flex justify-content-between">
                                             <div class="kiri p-3">
                                                 <div class="icon-container ">
-                                                    <div class="icon-container_box">
-                                                        <img src="./logo1.jpg" width="20px" height="20px"alt="totoprayogo.com"  class="rounded-circle"/>
+                                                    <div class="icon-container_box mt-4">
+                                                        <img src="./logo1.jpg" width="30px" height="30px"alt="totoprayogo.com"  class="rounded-circle"/>
                                                         <p class="text-center mt-2">$40</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tengah py-3 d-flex w-100 justify-content-start">
                                                 <div>
-                                                    <span class="btn btn-success">Valid</span>
+                                                    
                                                     <h3 class="lead">Coupon Detail goes here </h3>
                                                     <p class="text-muted mb-0">Short info about voucher</p>
+                                                    <span class="btn btn-success">Valid</span>
                                                 </div>
                                             </div>
                                             <div class="kanan">
@@ -182,40 +183,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="coupon bg-white rounded mb-3 d-flex justify-content-between">
-                                            <div class="kiri p-3">
-                                                <div class="icon-container ">
-                                                    <div class="icon-container_box">
-                                                        <img src="./logo1.jpg" width="20px" height="20px" alt="totoprayogo.com"  class="rounded-circle"/>
-                                                        <p class="text-center mt-2">$40</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tengah py-3 d-flex w-100 justify-content-start">
-                                                <div>
-                                                    <span class="btn btn-success">Valid</span>
-                                                    <h3 class="lead">Coupon Detail goes here </h3>
-                                                    <p class="text-muted mb-0">Short info about voucher</p>
-                                                </div>
-                                            </div>
-                                            <div class="kanan">
-                                                <div class="info m-3 d-flex align-items-center">
-                                                    <div class="w-100">
-                                                        <div class="block">
-                                                            <span class="time font-weight-light">
-                                                                <span>19 days</span>
-                                                            </span>
-                                                        </div>
-                                                        <a href="#" target="_blank" class="btn btn-sm btn-outline-danger btn-block">
-                                                            show
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm mt-3">
                                         <div class="coupon bg-white rounded mb-3 d-flex justify-content-between">
                                             <div class="kiri p-3">
                                                 <div class="icon-container ">
@@ -248,7 +216,40 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm mt-3">
+                                        <div class="coupon bg-white rounded mb-3 d-flex justify-content-between">
+                                            <div class="kiri p-3">
+                                                <div class="icon-container ">
+                                                    <div class="icon-container_box">
+                                                        <img src="./logo1.jpg" width="20px" height="20px" alt="totoprayogo.com"  class="rounded-circle"/>
+                                                        <p class="text-center mt-2">$40</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tengah py-3 d-flex w-100 justify-content-start">
+                                                <div>
+                                                    <span class="btn btn-success">Valid</span>
+                                                    <h3 class="lead">Coupon Detail goes here </h3>
+                                                    <p class="text-muted mb-0">Short info about voucher</p>
+                                                </div>
+                                            </div>
+                                            <div class="kanan">
+                                                <div class="info m-3 d-flex align-items-center">
+                                                    <div class="w-100">
+                                                        <div class="block">
+                                                            <span class="time font-weight-light">
+                                                                <span>19 days</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="#" target="_blank" class="btn btn-sm btn-outline-danger btn-block">
+                                                            show
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm mt-3">
                                         <div class="coupon bg-white rounded mb-3 d-flex justify-content-between">
                                             <div class="kiri p-3">
                                                 <div class="icon-container ">
@@ -283,8 +284,9 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         <div class="row tab-pane fade mt-5 m-auto" id="nav-voucher" role="tabpanel" aria-labelledby="nav-voucher-tab">
-                            <!-- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas aut ullam non et pariatur tenetur ipsam reprehenderit totam blanditiis.</span> -->
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas aut ullam non et pariatur tenetur ipsam reprehenderit totam blanditiis.</span>
                     </div>
                 </div>
             </div>
@@ -296,8 +298,8 @@
             </section>
             <section class="">
                 <div class="container text-center text-md-start display-none">
-                    <div class="row mt-3">
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto">
                             <img src="./nidin_LOGO-3.png" style="height: 40px; margin-top: 6px;">
                             <p class="q-mt-md text-18 text-d-gray">© 2020 Nidin 台灣</p>
                         </div>
@@ -338,7 +340,7 @@
             </section>
         </footer>
 
-        <footer id="footer" class="display-in-mobile text-center text-white fixed-bottom" style="background-color: #f1f1f1;">
+        <footer id="footer" class="display-in-mobile text-center text-white fixed-bottom">
             <div class="container pt-4">
                 <section class="mb-0">
                     <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark" style="text-decoration:none;"><i class="fas fa-utensils"></i><p>訂購</p></a>
@@ -349,7 +351,7 @@
 
                     <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark" style="text-decoration:none;"><i class="fas fa-user"></i><p>會員</p></a>
 
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#" role="button" data-mdb-ripple-color="dark" style="text-decoration:none;"><i class="fas fa-ellipsis-h"></i><p>更多</p>
+                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="./Topic(other).html" role="button" data-mdb-ripple-color="dark" style="text-decoration:none;"><i class="fas fa-ellipsis-h"></i><p>更多</p>
                     </a>
                 </section>
             </div>
