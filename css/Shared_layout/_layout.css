@@ -1,0 +1,56 @@
+@media (min-width:992px) {
+    .display-in-mobile {
+    display: none;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 991px) {
+    .hide-in-ads {
+    display: none;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative !important;
+}
+
+#header {
+    background-color: #ffe4c4;
+}
+
+#main {
+    padding-bottom: 100px;
+    background-color: #bdb76b;
+}
+
+/* main的padding-bottom值要等於或大於footer的height值 */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* background-color: #ffc0cb; */
+    left: 0;
+    right: 0;
+}
+
+.hide-in-ads {
+clear: both;
+}
+ul li{
+    list-style-type:none;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:2.5rem;
+}
